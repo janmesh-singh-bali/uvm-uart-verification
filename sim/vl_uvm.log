@@ -1,0 +1,360 @@
+UVM_INFO /home/janmesh-singh/uvm-core/src/base/uvm_root.svh(476) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.1
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+------------------------------------------------
+TB_TOP: Running with CLKS_PER_BIT = 868
+------------------------------------------------
+UVM_WARNING /home/janmesh-singh/uvm-core/src/base/uvm_root.svh(549) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /home/janmesh-singh/uvm-core/src/base/uvm_root.svh(552) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test uart_test...
+UVM_INFO /home/janmesh-singh/uvm-core/src/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /home/janmesh-singh/uvm-core/src/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+UVM_INFO ../tb/uvm/uart_test.sv(24) @ 0: uvm_test_top [TEST] Starting Sequence...
+UVM_INFO ../tb/uvm/uart_sequence.sv(33) @ 0: uvm_test_top.env.agnt.seqr@@seq [SEQ] Stress profile: 5 zeros, 5 ones, 50 random
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 105000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 115000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 115000: uvm_test_top.env.scb [SCB] Queue Push: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 82495000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 82495000: uvm_test_top.env.scb [SCB] PASS! Matched 0x0
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 86925000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 86935000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 86935000: uvm_test_top.env.scb [SCB] Queue Push: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 169445000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 169445000: uvm_test_top.env.scb [SCB] PASS! Matched 0x0
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 173745000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 173755000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 173755000: uvm_test_top.env.scb [SCB] Queue Push: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 256265000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 256265000: uvm_test_top.env.scb [SCB] PASS! Matched 0x0
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 260565000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 260575000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 260575000: uvm_test_top.env.scb [SCB] Queue Push: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 343085000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 343085000: uvm_test_top.env.scb [SCB] PASS! Matched 0x0
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 347385000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 347395000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 347395000: uvm_test_top.env.scb [SCB] Queue Push: 0x0
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 429905000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x0
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 429905000: uvm_test_top.env.scb [SCB] PASS! Matched 0x0
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 434205000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 434215000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 434215000: uvm_test_top.env.scb [SCB] Queue Push: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 516725000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 516725000: uvm_test_top.env.scb [SCB] PASS! Matched 0xff
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 521185000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 521195000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 521195000: uvm_test_top.env.scb [SCB] Queue Push: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 603705000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 603705000: uvm_test_top.env.scb [SCB] PASS! Matched 0xff
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 608195000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 608205000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 608205000: uvm_test_top.env.scb [SCB] Queue Push: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 690715000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 690715000: uvm_test_top.env.scb [SCB] PASS! Matched 0xff
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 695205000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 695215000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 695215000: uvm_test_top.env.scb [SCB] Queue Push: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 777725000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 777725000: uvm_test_top.env.scb [SCB] PASS! Matched 0xff
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 782065000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 782075000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 782075000: uvm_test_top.env.scb [SCB] Queue Push: 0xff
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 864585000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xff
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 864585000: uvm_test_top.env.scb [SCB] PASS! Matched 0xff
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 869035000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x7
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 869045000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 7
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 869045000: uvm_test_top.env.scb [SCB] Queue Push: 0x7
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 951555000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x7
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 951555000: uvm_test_top.env.scb [SCB] PASS! Matched 0x7
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 955855000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xed
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 955865000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ed
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 955865000: uvm_test_top.env.scb [SCB] Queue Push: 0xed
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1038375000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xed
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1038375000: uvm_test_top.env.scb [SCB] PASS! Matched 0xed
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1052675000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xef
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1052685000: uvm_test_top.env.agnt.umon [MON] Sampled TX: ef
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1052685000: uvm_test_top.env.scb [SCB] Queue Push: 0xef
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1135195000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xef
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1135195000: uvm_test_top.env.scb [SCB] PASS! Matched 0xef
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1139495000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x55
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1139505000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 55
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1139505000: uvm_test_top.env.scb [SCB] Queue Push: 0x55
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1222015000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x55
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1222015000: uvm_test_top.env.scb [SCB] PASS! Matched 0x55
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1226315000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x73
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1226325000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 73
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1226325000: uvm_test_top.env.scb [SCB] Queue Push: 0x73
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1308835000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x73
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1308835000: uvm_test_top.env.scb [SCB] PASS! Matched 0x73
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1313335000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x50
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1313345000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 50
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1313345000: uvm_test_top.env.scb [SCB] Queue Push: 0x50
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1395855000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x50
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1395855000: uvm_test_top.env.scb [SCB] PASS! Matched 0x50
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1400155000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x8
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1400165000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 8
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1400165000: uvm_test_top.env.scb [SCB] Queue Push: 0x8
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1482675000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x8
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1482675000: uvm_test_top.env.scb [SCB] PASS! Matched 0x8
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1486975000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x7b
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1486985000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 7b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1486985000: uvm_test_top.env.scb [SCB] Queue Push: 0x7b
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1569495000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x7b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1569495000: uvm_test_top.env.scb [SCB] PASS! Matched 0x7b
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1573995000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x49
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1574005000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 49
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1574005000: uvm_test_top.env.scb [SCB] Queue Push: 0x49
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1656515000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x49
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1656515000: uvm_test_top.env.scb [SCB] PASS! Matched 0x49
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1660815000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xd4
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1660825000: uvm_test_top.env.agnt.umon [MON] Sampled TX: d4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1660825000: uvm_test_top.env.scb [SCB] Queue Push: 0xd4
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1743335000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xd4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1743335000: uvm_test_top.env.scb [SCB] PASS! Matched 0xd4
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1747675000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x45
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1747685000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 45
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1747685000: uvm_test_top.env.scb [SCB] Queue Push: 0x45
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1830195000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x45
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1830195000: uvm_test_top.env.scb [SCB] PASS! Matched 0x45
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1834495000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xfb
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1834505000: uvm_test_top.env.agnt.umon [MON] Sampled TX: fb
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1834505000: uvm_test_top.env.scb [SCB] Queue Push: 0xfb
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 1917015000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xfb
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 1917015000: uvm_test_top.env.scb [SCB] PASS! Matched 0xfb
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 1921315000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x52
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 1921325000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 52
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 1921325000: uvm_test_top.env.scb [SCB] Queue Push: 0x52
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2003835000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x52
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2003835000: uvm_test_top.env.scb [SCB] PASS! Matched 0x52
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2018135000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xaf
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2018145000: uvm_test_top.env.agnt.umon [MON] Sampled TX: af
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2018145000: uvm_test_top.env.scb [SCB] Queue Push: 0xaf
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2100655000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xaf
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2100655000: uvm_test_top.env.scb [SCB] PASS! Matched 0xaf
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2104955000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x3f
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2104965000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 3f
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2104965000: uvm_test_top.env.scb [SCB] Queue Push: 0x3f
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2187475000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x3f
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2187475000: uvm_test_top.env.scb [SCB] PASS! Matched 0x3f
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2201775000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x6b
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2201785000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 6b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2201785000: uvm_test_top.env.scb [SCB] Queue Push: 0x6b
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2284295000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x6b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2284295000: uvm_test_top.env.scb [SCB] PASS! Matched 0x6b
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2288785000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x56
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2288795000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 56
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2288795000: uvm_test_top.env.scb [SCB] Queue Push: 0x56
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2371305000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x56
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2371305000: uvm_test_top.env.scb [SCB] PASS! Matched 0x56
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2375605000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x65
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2375615000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 65
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2375615000: uvm_test_top.env.scb [SCB] Queue Push: 0x65
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2458125000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x65
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2458125000: uvm_test_top.env.scb [SCB] PASS! Matched 0x65
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2462425000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xf9
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2462435000: uvm_test_top.env.agnt.umon [MON] Sampled TX: f9
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2462435000: uvm_test_top.env.scb [SCB] Queue Push: 0xf9
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2544945000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xf9
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2544945000: uvm_test_top.env.scb [SCB] PASS! Matched 0xf9
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2549445000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x62
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2549455000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 62
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2549455000: uvm_test_top.env.scb [SCB] Queue Push: 0x62
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2631965000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x62
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2631965000: uvm_test_top.env.scb [SCB] PASS! Matched 0x62
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2636265000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x81
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2636275000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 81
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2636275000: uvm_test_top.env.scb [SCB] Queue Push: 0x81
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2718785000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x81
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2718785000: uvm_test_top.env.scb [SCB] PASS! Matched 0x81
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2723285000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xd7
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2723295000: uvm_test_top.env.agnt.umon [MON] Sampled TX: d7
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2723295000: uvm_test_top.env.scb [SCB] Queue Push: 0xd7
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2805805000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xd7
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2805805000: uvm_test_top.env.scb [SCB] PASS! Matched 0xd7
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2820105000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xa4
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2820115000: uvm_test_top.env.agnt.umon [MON] Sampled TX: a4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2820115000: uvm_test_top.env.scb [SCB] Queue Push: 0xa4
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2902625000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xa4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2902625000: uvm_test_top.env.scb [SCB] PASS! Matched 0xa4
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2906925000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x51
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2906935000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 51
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2906935000: uvm_test_top.env.scb [SCB] Queue Push: 0x51
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 2989445000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x51
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 2989445000: uvm_test_top.env.scb [SCB] PASS! Matched 0x51
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 2993745000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x68
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 2993755000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 68
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 2993755000: uvm_test_top.env.scb [SCB] Queue Push: 0x68
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3076265000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x68
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3076265000: uvm_test_top.env.scb [SCB] PASS! Matched 0x68
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3080755000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xbd
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3080765000: uvm_test_top.env.agnt.umon [MON] Sampled TX: bd
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3080765000: uvm_test_top.env.scb [SCB] Queue Push: 0xbd
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3163275000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xbd
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3163275000: uvm_test_top.env.scb [SCB] PASS! Matched 0xbd
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3167755000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x83
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3167765000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 83
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3167765000: uvm_test_top.env.scb [SCB] Queue Push: 0x83
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3250275000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x83
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3250275000: uvm_test_top.env.scb [SCB] PASS! Matched 0x83
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3254775000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x78
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3254785000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 78
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3254785000: uvm_test_top.env.scb [SCB] Queue Push: 0x78
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3337295000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x78
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3337295000: uvm_test_top.env.scb [SCB] PASS! Matched 0x78
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3341595000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xc6
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3341605000: uvm_test_top.env.agnt.umon [MON] Sampled TX: c6
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3341605000: uvm_test_top.env.scb [SCB] Queue Push: 0xc6
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3424115000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xc6
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3424115000: uvm_test_top.env.scb [SCB] PASS! Matched 0xc6
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3428415000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x5
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3428425000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 5
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3428425000: uvm_test_top.env.scb [SCB] Queue Push: 0x5
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3510935000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x5
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3510935000: uvm_test_top.env.scb [SCB] PASS! Matched 0x5
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3515235000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x71
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3515245000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 71
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3515245000: uvm_test_top.env.scb [SCB] Queue Push: 0x71
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3597755000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x71
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3597755000: uvm_test_top.env.scb [SCB] PASS! Matched 0x71
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3602055000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x4
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3602065000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3602065000: uvm_test_top.env.scb [SCB] Queue Push: 0x4
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3684575000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3684575000: uvm_test_top.env.scb [SCB] PASS! Matched 0x4
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3688875000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x2c
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3688885000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 2c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3688885000: uvm_test_top.env.scb [SCB] Queue Push: 0x2c
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3771395000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x2c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3771395000: uvm_test_top.env.scb [SCB] PASS! Matched 0x2c
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3775695000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xeb
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3775705000: uvm_test_top.env.agnt.umon [MON] Sampled TX: eb
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3775705000: uvm_test_top.env.scb [SCB] Queue Push: 0xeb
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3858215000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xeb
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3858215000: uvm_test_top.env.scb [SCB] PASS! Matched 0xeb
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3862515000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x3f
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3862525000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 3f
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3862525000: uvm_test_top.env.scb [SCB] Queue Push: 0x3f
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 3945035000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x3f
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 3945035000: uvm_test_top.env.scb [SCB] PASS! Matched 0x3f
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 3949335000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x5c
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 3949345000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 5c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 3949345000: uvm_test_top.env.scb [SCB] Queue Push: 0x5c
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4031855000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x5c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4031855000: uvm_test_top.env.scb [SCB] PASS! Matched 0x5c
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4046155000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xe4
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4046165000: uvm_test_top.env.agnt.umon [MON] Sampled TX: e4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4046165000: uvm_test_top.env.scb [SCB] Queue Push: 0xe4
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4128675000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xe4
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4128675000: uvm_test_top.env.scb [SCB] PASS! Matched 0xe4
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4132975000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x96
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4132985000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 96
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4132985000: uvm_test_top.env.scb [SCB] Queue Push: 0x96
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4215495000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x96
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4215495000: uvm_test_top.env.scb [SCB] PASS! Matched 0x96
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4219795000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xde
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4219805000: uvm_test_top.env.agnt.umon [MON] Sampled TX: de
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4219805000: uvm_test_top.env.scb [SCB] Queue Push: 0xde
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4302315000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xde
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4302315000: uvm_test_top.env.scb [SCB] PASS! Matched 0xde
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4306615000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x76
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4306625000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 76
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4306625000: uvm_test_top.env.scb [SCB] Queue Push: 0x76
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4389135000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x76
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4389135000: uvm_test_top.env.scb [SCB] PASS! Matched 0x76
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4393435000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x46
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4393445000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 46
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4393445000: uvm_test_top.env.scb [SCB] Queue Push: 0x46
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4475955000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x46
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4475955000: uvm_test_top.env.scb [SCB] PASS! Matched 0x46
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4490255000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x45
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4490265000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 45
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4490265000: uvm_test_top.env.scb [SCB] Queue Push: 0x45
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4572775000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x45
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4572775000: uvm_test_top.env.scb [SCB] PASS! Matched 0x45
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4577075000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xe3
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4577085000: uvm_test_top.env.agnt.umon [MON] Sampled TX: e3
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4577085000: uvm_test_top.env.scb [SCB] Queue Push: 0xe3
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4659595000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xe3
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4659595000: uvm_test_top.env.scb [SCB] PASS! Matched 0xe3
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4663895000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x1c
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4663905000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 1c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4663905000: uvm_test_top.env.scb [SCB] Queue Push: 0x1c
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4746415000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x1c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4746415000: uvm_test_top.env.scb [SCB] PASS! Matched 0x1c
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4750715000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x4b
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4750725000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 4b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4750725000: uvm_test_top.env.scb [SCB] Queue Push: 0x4b
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4833235000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x4b
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4833235000: uvm_test_top.env.scb [SCB] PASS! Matched 0x4b
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4837535000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x9c
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4837545000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 9c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4837545000: uvm_test_top.env.scb [SCB] Queue Push: 0x9c
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 4920055000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x9c
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 4920055000: uvm_test_top.env.scb [SCB] PASS! Matched 0x9c
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 4924355000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xa3
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 4924365000: uvm_test_top.env.agnt.umon [MON] Sampled TX: a3
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 4924365000: uvm_test_top.env.scb [SCB] Queue Push: 0xa3
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 5006875000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xa3
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 5006875000: uvm_test_top.env.scb [SCB] PASS! Matched 0xa3
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 5011175000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0xb8
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 5011185000: uvm_test_top.env.agnt.umon [MON] Sampled TX: b8
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 5011185000: uvm_test_top.env.scb [SCB] Queue Push: 0xb8
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 5093695000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0xb8
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 5093695000: uvm_test_top.env.scb [SCB] PASS! Matched 0xb8
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 5097995000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x72
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 5098005000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 72
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 5098005000: uvm_test_top.env.scb [SCB] Queue Push: 0x72
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 5180515000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x72
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 5180515000: uvm_test_top.env.scb [SCB] PASS! Matched 0x72
+UVM_INFO ../tb/uvm/uart_driver.sv(35) @ 5184925000: uvm_test_top.env.agnt.udrv [UART_DRV] Transmitting byte: 0x17
+UVM_INFO ../tb/uvm/uart_monitor.sv(37) @ 5184935000: uvm_test_top.env.agnt.umon [MON] Sampled TX: 17
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(36) @ 5184935000: uvm_test_top.env.scb [SCB] Queue Push: 0x17
+UVM_INFO ../tb/uvm/uart_monitor.sv(56) @ 5267445000: uvm_test_top.env.agnt.umon [MON] Sampled RX: 0x17
+UVM_INFO ../tb/uvm/uart_scoreboard.sv(57) @ 5267445000: uvm_test_top.env.scb [SCB] PASS! Matched 0x17
+UVM_INFO ../tb/uvm/uart_test.sv(28) @ 5271735000: uvm_test_top [TEST] Sequence Finished.
+UVM_INFO /home/janmesh-singh/uvm-core/src/base/uvm_report_server.svh(1009) @ 5273735000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  307
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[MON]   120
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SCB]   120
+[SEQ]     1
+[TEST]     2
+[UART_DRV]    60
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /home/janmesh-singh/uvm-core/src/base/uvm_root.svh:633: Verilog $finish
+=========== SVA COVER PROPERTY HITS ===========
+  C1 payload_all_zeros    : 5
+  C2 payload_all_ones     : 5
+  C3 burst_back_to_back   : 42
+  C4 long_idle_gap        : 6
+  C5 rx_frame_complete    : 60
+  COVERAGE: 5/5 cover properties HIT
+===============================================
+- S i m u l a t i o n   R e p o r t: Verilator 5.050 2026-07-01
+- Verilator: $finish at 5ms; walltime 3.846 s; speed 1.371 ms/s
+- Verilator: cpu 2.686 s on 1 threads; allocated 25 MB

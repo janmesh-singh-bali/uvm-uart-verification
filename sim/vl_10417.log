@@ -1,0 +1,19 @@
+--------------------------------------------------
+[SMOKE] CLKS_PER_BIT = 10417
+[SMOKE] bytes sent     = 60
+[SMOKE] bytes received = 60
+[SMOKE] data mismatches= 0
+[SMOKE] RESULT: PASS
+--------------------------------------------------
+- ../tb/sva/uart_sva_smoke_tb.sv:119: Verilog $finish
+=========== SVA COVER PROPERTY HITS ===========
+  C1 payload_all_zeros    : 5
+  C2 payload_all_ones     : 6
+  C3 burst_back_to_back   : 50
+  C4 long_idle_gap        : 4
+  C5 rx_frame_complete    : 60
+  COVERAGE: 5/5 cover properties HIT
+===============================================
+- S i m u l a t i o n   R e p o r t: Verilator 5.050 2026-07-01
+- Verilator: $finish at 64ms; walltime 1.849 s; speed 34.496 ms/s
+- Verilator: cpu 1.846 s on 1 threads; allocated 6 MB

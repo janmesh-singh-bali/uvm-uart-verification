@@ -1,0 +1,8 @@
+obj_dir/
+work/
+transcript
+vsim.wlf
+*.vcd
+coverage.dat
+cov_*.dat
+cov_annotated/
